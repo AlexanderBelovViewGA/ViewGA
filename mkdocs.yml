@@ -1,0 +1,6 @@
+site_name: Мои заметки
+theme:
+  name: material
+  palette:
+    scheme: slate # Это включит стильную темную тему
+    primary: teal  # Это сделает акцентный цвет морской волны
