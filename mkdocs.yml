@@ -18,9 +18,13 @@ theme:
         name: Светлая тема
   
   features:
-    - navigation.sections
-    - navigation.top
-    - content.code.copy
+    - navigation.tabs              # Главные разделы выносятся в верхнюю панель
+    - navigation.sections          # Группировка подразделов слева
+    - navigation.sticky            # Шапка прилипает к верху
+    - navigation.tracking          # Подсвечивает, где ты сейчас находишься, при скролле
+    - navigation.top               # Кнопка быстрой прокрутки вверх
+    - search.suggest               # Умные подсказки в поиске
+    - search.highlight             # Подсветка найденного текста
 
 nav:
   - Главная: index.md
