@@ -1,12 +1,13 @@
-site_name: ViewGA Docs
 theme:
   name: material
+  language: ru
   palette:
-    scheme: slate
-    primary: indigo
-
-nav:
-  - Главная: index.md
-  - Создание карты:
-      - Что такое карта?: map/index.md
-      - Инициализация: map/initialization.md
+    # Темная тема с серыми акцентами
+    - scheme: slate
+      primary: grey
+      accent: blue
+  features:
+    - navigation.sections  # Группировка меню в блоки
+    - navigation.expand    # Меню сразу раскрыто
+    - navigation.top       # Кнопка "Вверх"
+    - content.code.copy    # Кнопка "Копировать" для кода
