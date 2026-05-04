@@ -1,13 +1,34 @@
+site_name: ViewGA Documentation
+language: ru
+
 theme:
   name: material
-  language: ru
   palette:
-    # Темная тема с серыми акцентами
     - scheme: slate
       primary: grey
       accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Темная тема
+    - scheme: default
+      primary: grey
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Светлая тема
+  
   features:
-    - navigation.sections  # Группировка меню в блоки
-    - navigation.expand    # Меню сразу раскрыто
-    - navigation.top       # Кнопка "Вверх"
-    - content.code.copy    # Кнопка "Копировать" для кода
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+
+nav:
+  - Главная: index.md
+  - Создание карты:
+      - Что такое карта?: map/index.md
+      - Инициализация: map/initialization.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
