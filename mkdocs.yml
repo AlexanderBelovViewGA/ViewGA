@@ -31,6 +31,8 @@ nav:
   - Создание карты:
       - Что такое карта?: map/index.md
       - Инициализация: map/initialization.md
+      - Запись данных: map/recording.md
+      - Реконструкция в Metashape: map/reconstruction.md
 
 markdown_extensions:
   - admonition
