@@ -1,4 +1,4 @@
-site_name: ViewGA Documentation
+site_name: ViewGA Docs
 theme:
   name: material
   palette:
@@ -8,4 +8,5 @@ theme:
 nav:
   - Главная: index.md
   - Создание карты:
+      - Что такое карта?: map/index.md
       - Инициализация: map/initialization.md
