@@ -1,6 +1,25 @@
-site_name: ViewGA
+site_name: Tracking System ViewGA
 theme:
   name: material
-  palette:
-    scheme: slate # Это включит стильную темную тему
-    primary: teal  # Это сделает акцентный цвет морской волны
+  palette: 
+    # Настройка тёмной темы
+    - scheme: slate
+      primary: deep purple  # Цвет шапки (можно заменить на indigo, teal, black)
+      accent: purple       # Цвет кнопок и ссылок
+      toggle:
+        icon: material/brightness-4
+        name: Перейти на светлую тему
+    
+    # Настройка светлой темы (на случай, если захочешь оставить выбор)
+    - scheme: default
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/brightness-7
+        name: Перейти на тёмную тему
+
+# Эти плагины добавят красоты
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
