@@ -33,6 +33,7 @@ nav:
       - Инициализация: map/initialization.md
       - Запись данных: map/recording.md
       - Реконструкция в Metashape: map/reconstruction.md
+      - Позиционирование и масштаб: map/alignment.md
 
 markdown_extensions:
   - admonition
