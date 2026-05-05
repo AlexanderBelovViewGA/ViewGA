@@ -28,6 +28,8 @@ theme:
 
 nav:
   - Главная: index.md
+  - Интерфейс и подключение:
+      - Вкладка Input: interface/input.md
   - Создание карты:
       - Что такое карта?: map/index.md
       - Инициализация: map/initialization.md
